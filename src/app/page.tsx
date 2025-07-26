@@ -1,5 +1,6 @@
 import { Banner } from "@/components/banner/banner";
 import { CarousselGameOption, Caroussel } from "@/components/caroussel/caroussel";
+import { Navbar } from "@/components/navbar/navbar";
 
 const games: CarousselGameOption[] = [
   {
@@ -25,6 +26,7 @@ const games: CarousselGameOption[] = [
 export default function Home() {
   return (
     <>
+      <Navbar></Navbar>
       <Banner></Banner>
       <section className="w-screen h-screen px-16 py-8">
         <div></div>

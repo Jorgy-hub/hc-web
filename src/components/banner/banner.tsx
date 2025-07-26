@@ -9,16 +9,14 @@ const Banner = () => {
     return <div className="w-screen h-screen shadow-2xl bg-no-repeat bg-cover bg-center bg-[url(https://cdn.modrinth.com/data/UUATcpwj/images/a4864428f4a4ee6179403c84f6d2aa245fb8bd55.gif)]" >
         <div className="w-full h-full bg-[rgba(0,0,0,0.7)]">
             { /* Banner Nav */}
-            <div className="w-full h-1/6 grid place-content-center justify-start px-16">
-                <Title>HC</Title>
-            </div>
+            <div className="w-full h-1/6 grid place-content-center justify-start px-16"></div>
             { /* Banner Part */}
-            <div className="w-full h-5/6 text-center px-[12%] pt-[12%]">
+            <div className="w-full h-full text-center px-[12%] pt-[12%]">
                 { /* Image + Title */}
                 <div className="flex place-content-center text-center justify-center items-center">
                     <div className="bg-[url(https://emoji.discadia.com/emojis/485e7b43-c59a-4120-a5ef-6c05d9c36210.gif)] h-16 w-16 bg-cover hue-rotate-330"></div>
                     <Title>Host it</Title>
-                    <div className="w-4 h-auto"></div>
+                    <div className="w-4 h-autoi0"></div>
                     <TitleGlowing>Create it</TitleGlowing>
                 </div>
                 { /* Description */}
