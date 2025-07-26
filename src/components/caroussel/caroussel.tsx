@@ -47,9 +47,19 @@ const Caroussel = (props: CarousselProps) => {
                 <div
                     className="w-full h-full bg-[rgba(0,0,0,0.7)] relative"
                 >
-                    <div className="w-1/2 h-full p-16 place-content-end">
-                        <div className=""></div>
-                        {game.description}
+                    <div className="w-1/2 h-full p-16 place-content-end p-8">
+                        <div className="h-full w-full bg-[#131313] rounded-sm p-4">
+                            <div className="text-orange-400 text-lg font-bold">{game.name} Server Hosting</div>
+                            <div className="text-zinc-400">High-performance Minecraft server hosting with instant setup and 24/7 support.</div>
+                            <div className="text-white">Key features</div>
+                            <ul className="text-zinc-400 text-sm">
+                                <li>Standard DDos Protection</li>
+                                <li>Local + Offsite Backups</li>
+                                <li>Full Control Over Your Set-up</li>
+                                <li>Sub Users + Scheduled Tasks</li>
+                            </ul>
+                            <div className="text-white">Server Specifications</div>
+                        </div>    
                     </div>
                 </div>
             </div>

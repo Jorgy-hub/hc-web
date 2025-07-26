@@ -26,10 +26,7 @@ const games: CarousselGameOption[] = [
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
-      <Banner></Banner>
       <section className="w-screen h-screen px-16 py-8">
-        <div></div>
         <Caroussel games={games}></Caroussel>
       </section>
     </>
