@@ -25,10 +25,14 @@ const games: CarousselGameOption[] = [
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
+      <section className="w-screen">
+        <Navbar></Navbar>
+        <Banner></Banner>
+      </section>
       <section className="w-screen h-screen px-16 py-8">
         <Caroussel games={games}></Caroussel>
       </section>
-    </>
+    </div>
   );
 }
